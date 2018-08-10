@@ -1,0 +1,192 @@
+@import "base.css";
+/*头部状态栏*/
+.top{
+    width:100%;
+    height:0.4rem;
+    background-color: #1ce8d6;
+}
+.top .topBox{
+    width:7rem;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ym{
+    width:100%;
+    height:2.65rem;
+    background-color: #17e2d6;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.ym .yname{
+    margin-left: 0.25rem;
+    height:0.9rem;
+    display: flex;
+    align-items: center;
+}
+.ym .tip{
+    font-size: 0.3rem;
+    color:#fff;
+    margin-left:0.43rem;
+    margin-top: 0.35rem; 
+}
+.ym .money{
+    height:1.3rem;
+    background-color: #fff;
+    width:7rem;
+    margin:0 auto;
+    position: absolute;
+    bottom:-0.65rem;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+}
+.ym .money img{
+    margin-left: 0.53rem;
+}
+.ym .money .word{
+    margin-left: 0.53rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+
+}
+.ym .money .word span{
+    color:red;
+    margin-left: 1.2rem;
+}
+.ym .money .cricle{
+    width:0.2rem;
+    height:0.2rem;
+    position: absolute;
+    border-radius: 50%;
+    top:-0.1rem;
+    left:0.3rem;
+    background-color: #fff;
+}
+/* 主体部分 */
+.main{
+    background-color: #f6f1f1;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:10.3rem;
+}
+.main .yhkimg{
+    margin-top: 1rem;
+}
+
+/* 键盘 */
+.jianpan{
+    position: fixed;
+    bottom:0;
+    left:0;
+    height:4.28rem;
+    background-color: #dcdfe5;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.jianpan .small{
+    width:2.37rem;
+    height:0.95rem;
+    background-color: #fff;
+    margin-top: 0.09rem;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+}
+.jianpan .small .box{
+    height:100%;
+    width:0.64rem;
+    font-weight: bold;
+}
+.jianpan .small .fig{
+    font-size: 0.33rem;
+}
+.jianpan .small .zim{
+    font-size: 0.13rem;
+    display: flex;
+    letter-spacing: 0.06rem;
+    height:0.28rem;
+}
+.jianpan .small:nth-child(7) .box,.jianpan .small:nth-child(9) .box{
+    width:0.8rem;
+}
+/* 密码输入框 */
+.shuru{
+    height:2.5rem;
+    background-color:rgba(255,255,255,0.6);
+    position: fixed;
+    bottom:4.28rem;
+    left:0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.shuru .nav{
+    display: flex;
+    width:3.69rem;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.shuru .word{
+    font-size: 0.23rem;
+}
+.shuru .btn{
+    width:0.41rem;
+    height:0.11rem;
+    display: flex;
+    justify-content: space-between;
+}
+.shuru .btn  .small{
+    width:0.11rem;
+    height:0.11rem;
+    border-radius: 50%;
+    background-color: green;
+}
+.shuru .password{
+    width:4.4rem;
+    height:0.36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.shuru .in{
+    width:4.4rem;
+    height:0.56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shuru .password input{
+    width:0.54rem;
+    height:100%;
+    border:0;
+    outline: 0;
+    text-indent: 0.23rem;
+    background-color: transparent;
+}
+.shuru .xian{
+    width:4.4rem;
+    height:0.06rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.shuru .xian .small{
+    width:0.54rem;
+    height:100%;
+    background-color: #cecaca;
+    border-radius: 0.1rem;
+}

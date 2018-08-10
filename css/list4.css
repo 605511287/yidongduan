@@ -1,0 +1,254 @@
+@import "base.css";
+/*头部状态栏*/
+.top{
+    width:100%;
+    height:0.4rem;
+    background-color: #1ce8d6;
+}
+.top .topBox{
+    width:7rem;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 标题 */
+.title{
+    width:100%;
+    height:0.8rem;
+    background-color: #17e2d6;
+    font-size: 0.28rem;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    align-items: center;
+    letter-spacing: 0.13rem;
+}
+/* 个人订单 */
+.main{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dan{
+    width:7.02rem;
+    height:4.78rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.14rem solid #e3e3e3;
+}
+.dan .head{
+    margin:0 0.16rem;
+    height:1.06rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dan .head .left{
+    font-size: 0.23rem;
+    font-weight: bold;
+}
+.dan .head .right{
+    font-size: 0.18rem;
+    color:#b0b0b0;
+    display: flex;
+    align-items: center;
+    line-height: 0.18rem;
+}
+.dan .head .right img{
+    display: block;
+    width:0.12rem;
+    height:0.19rem;
+    margin-left: 0.19rem;
+}
+.dan .con{
+    width:100%;
+    height:3.43rem;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.dan .ever{
+    height: 1.62rem;
+    margin:0 0.10rem 0 0.16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dan .ever .left{
+    width:50%;
+    display: flex;
+    height:0.84rem;
+    justify-content: space-between;
+}
+.dan .ever .left .name{
+    width:1.85rem;
+    display: flex;
+    flex-direction: column;
+}
+.dan .ever .left .name .goodsname{
+    height:0.34rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    line-height: 0.34rem;
+    font-size: 0.34rem;
+}
+.dan .ever .left .name .goodsname img{
+    display: block;
+    width:0.12rem;
+    height:0.19rem;
+    margin-left: 0.31rem;
+}
+.dan .ever .left .name .date{
+    font-size: 0.1rem;
+    color:#878787;
+    margin-top: 0.16rem;
+}
+.dan .ever .right{
+    width:1.3rem;
+    height:0.84rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dan .ever .right .arrive{
+    font-size: 0.23rem;
+}
+.dan .ever .right .time{
+    font-size: 0.14rem;
+    color:#878787;
+    margin-top: 0.2rem;
+}
+.con .goods{
+    height:0.3rem;
+    font-size: 0.25rem;
+}
+.con .goods .word1{
+    float: left;
+    margin-left: 1.68rem;
+}
+.con .goods .word2{
+    float: right;
+    margin-right: 0.2rem;
+    font-weight: bold;
+}
+.con .fun{
+    width:50%;
+    height:0.43rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.22rem;
+    color:#fff;
+    float: right;
+    margin-top: 0.8rem;
+}
+.con .fun .lianxi{
+    height:0.43rem;
+    background: url("../img/beijing.png") center no-repeat;
+    width:1.51rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.43rem;
+}
+.con .fun .more{
+    height:0.43rem;
+    background: url("../img/beijing.png") center no-repeat;
+    width:1.51rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.43rem;
+}
+/* 最近浏览 */
+.list{
+    width:7.02rem;
+    height:11.14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list .hd{
+    font-size: 0.22rem;
+    margin-left: 0.18rem;
+}
+.list .conlist{
+    width:100%;
+    height:10.2rem;
+}
+.list ul{
+    display: flex;
+    flex-direction: column;
+}
+.list li{
+    width:100%;
+    height:2.04rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list li .bigbox{
+    height:1.53rem;
+    margin:0  0.1rem 0  0.2rem;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.list li .bigbox .big{
+    height:1.53rem;
+}
+.list li .bigbox .pbox{
+    width:2.54rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list li .bigbox .pbox .name{
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.list li .bigbox .pbox .pingjia{
+    font-size: 0.17rem;
+    display: flex;
+    justify-content: space-between;
+}
+.list li .bigbox .pbox .pingjia .xx{
+    display: flex;
+    justify-content: space-between;
+    width:1.43rem;
+}
+
+.list li .bigbox .pbox .min{
+    font-size: 0.17rem;
+}
+.list li .bigbox .pbox .qsj{
+    font-size: 0.17rem;
+}
+.list li .bigbox .fen{
+    align-self: flex-end;
+    font-size: 0.1rem;
+}
+/*底部*/
+.bottom{
+    width: 5.93rem;
+    height:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.bottom .small{
+    width:0.6rem;
+    height:0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.17rem;
+
+}
+.bottom .small .change{
+    color:#36e6db;
+}

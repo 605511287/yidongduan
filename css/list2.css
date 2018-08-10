@@ -1,0 +1,182 @@
+@import "base.css";
+/*头部状态栏*/
+.top{
+    width:100%;
+    height:0.4rem;
+    background-color: #1ce8d6;
+}
+.top .topBox{
+    width:7rem;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*设置栏*/
+.set{
+    height:0.9rem;
+    background-color: #17e2d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settings{
+    width:6.69rem;
+    height: 0.46rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*主体*/
+.main{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .self{
+    widtH:7.02rem;
+    height:4.08rem;
+    border-bottom: 1px solid #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main .self .hd{
+    width: 1.48rem;
+}
+.main .self .name{
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+.main .self .fun{
+    display: flex;
+    width: 4.7rem;
+    height: 0.97rem;
+    justify-content: space-between;
+}
+.main .self .fun .small{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.23rem;
+}
+
+/*钱包*/
+.money{
+    width:7.02rem;
+    height:4.19rem;
+    display: flex;
+    flex-direction: column;
+}
+.money .title{
+    padding-left: 0.28rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.money .con{
+    width:5.56rem;
+    height:3.1rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.money .con .row{
+    width:100%;
+    height:1.28rem;
+    display: flex;
+    justify-content: space-between;
+}
+.money .con .small{
+    width:1rem;
+    height:1.28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.money .con .small .img{
+    width: 0.84rem;
+    height:0.84rem;
+    background: url("../img/yuan.png") center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.money .con .small .word{
+    font-size: 0.22rem;
+
+    text-align: center;
+}
+
+/*服务*/
+.serve{
+    width: 7.02rem;
+    height:1.89rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0.9rem;
+}
+.serve .title{
+    padding-left: 0.28rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.serve .con{
+    width:5.56rem;
+    height:1.28rem;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.serve.con .small{
+    width:1rem;
+    height:1.28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.serve .con .small .img{
+    width: 0.84rem;
+    height:0.84rem;
+    background: url("../img/yuan.png") center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serve .con .small .word{
+    font-size: 0.22rem;
+    text-align: center;
+}
+/*底部*/
+.bottom{
+    width: 5.93rem;
+    height:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.bottom .small{
+    width:0.6rem;
+    height:0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.17rem;
+
+}
+.bottom .small .change{
+    color:#36e6db;
+}

@@ -1,0 +1,340 @@
+@import "base.css";
+/*头部状态栏*/
+.top{
+    width:100%;
+    height:0.4rem;
+    background-color: #1ce8d6;
+}
+.top .topBox{
+    width:7rem;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 页面控制 */
+.ym{
+    width:100%;
+    height:3.2rem;
+    background-color: #17e2d6;
+    display: flex;
+    flex-direction: column;
+}
+.ym .yname{
+    margin-left: 0.25rem;
+    height:0.9rem;
+    display: flex;
+    align-items: center;
+}
+.yname .zf {
+    margin-left: 0.67rem;
+    font-size: 0.27rem;
+    color:#fff;
+}
+.ym .yd{
+    width:4.09rem;
+    height:0.75rem;
+    align-self: center;
+    margin-top: 0.32rem;
+    background-color: #0a6661;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;    
+}
+.ym .yd .ydimg{
+    margin-left: 0.45rem;
+}
+.ym .yd .word{
+    font-size: 0.23rem;
+    color:#fff;
+    margin-left: 0.35rem;
+}
+/* 主体部分 */
+.content{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.14rem;
+}
+.content .self{
+    width:7rem;
+    height:2.7rem;
+    background-color: #fff;
+    margin-top:-1rem;
+    border-top: 1px solid #d3d2d2;
+    border-bottom: 1px solid #d3d2d2;
+}
+.content .self .name{
+    width:100%;
+    height:1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #b0b0b0;
+}
+.content .self .name h2{
+    font-size: 0.32rem;
+}
+.content .self .name h3{
+    font-size: 0.23rem;
+    font-weight: normal;
+}
+
+.content .self .name .forward{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin:auto 0;
+    right:0.27rem;
+    height:0.33rem;
+}
+.content .self .name .forward a{
+    display: block;
+}
+.content .time{
+    display: flex;
+    height:0.98rem;
+    margin:0 0.27rem 0 0.34rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .time .text{
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.content .section{
+    height:4.47rem;
+    width:7rem;
+    background-color: #fff;
+    margin:0.21rem 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d3d2d2;
+    border-bottom: 1px solid #d3d2d2;
+}
+.content .section .logo{
+    height:0.98rem;
+    font-size: 0.22rem;
+    display: flex;
+    margin-left: 0.53rem;
+    align-items: center;
+}
+.content .section .logo .word{
+    margin-left: 0.34rem;
+}
+.content .section .food{
+    height:1.18rem;
+    background-color: #e6f6f5;
+    display: flex;
+    align-items: center
+}
+.content .section .food .img{
+    margin-left: 0.53rem;
+}
+.content .section .food  .num{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:0 0.35rem; 
+}
+.content .section .food  .num .hd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:4.62rem;
+}
+.content .section .food  .num h2{
+    font-size: 0.28rem;
+}
+.content .section .food  .num  span{
+    font-size: 0.18rem;
+    font-weight: bold;
+}
+.content .section .food  .num .number{
+    font-size: 0.1rem;
+    color:#59605f;
+}
+.content .section .other{
+    height:0.9rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.12rem;
+}
+.content .section .other .word{
+    margin-left: 0.49rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:0.7rem;
+}
+.content .section .other .word .bao{
+    width:6.03rem;
+    height:0.23rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.23rem;
+    align-items: center;
+}
+
+.content .section .other .word .pei{
+    width:6.23rem;
+    height:0.23rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.23rem;
+    align-items: center;
+}
+.content .section .other .xian{
+    font-size: 0.12rem;
+    display: flex;
+    align-items: center;
+}
+.content .section .quan{
+    height:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content .section .quan .small{
+    margin-left: 0.49rem;
+    margin-right: 0.23rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.23rem;
+}
+.content .section .quan .small .right{
+    width:1.4rem;
+    display: flex;
+    justify-content: space-between;
+    color:#b0b0b0;
+}
+/* 支付方式 */
+.zhif{
+    height:2rem;
+    width:7rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d3d2d2;
+    border-bottom: 1px solid #d3d2d2;
+}
+.zhif .small{
+    height:50%;
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+}
+.zhif .small:first-child{
+    border-bottom: 1px solid #b0b0b0;
+}
+.zhif .small .right{
+    margin-right: 0.58rem;
+    color:#b0b0b0;
+}
+.zhif .small:last-child .right{
+    display: flex;
+    justify-content: space-between;
+    width:2.15rem;
+    margin-right: 0.23rem;
+}
+/* 底部 */
+.bottom{
+    height:1rem;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 0.27rem;
+    justify-content: space-between;
+}
+.bottom .word{
+    width:4.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.7rem;
+}
+.bottom .go{
+    height:100%;
+    width:2.38rem;
+    background: -webkit-linear-gradient(left,#58e4aa,#20e2d0);
+    color:#fff;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.3rem;
+}
+/* 选择支付方式 */
+.chose{
+    width:100%;
+    height:7.34rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: 1rem;
+    left:0;
+    display: none;
+}
+.chose .head{
+    height:1.2rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2rem;
+    position: relative;
+}
+.chose .head .close{
+    height:0.2rem;
+    position: absolute;
+    right:0.4rem;
+    top:0;
+    bottom:0;
+    margin: auto 0;
+}
+.chose .dian{
+    margin:-0.2rem 0.24rem 0;
+    font-size: 0.1rem;
+}
+.chose .lei{
+    margin-left: 0.68rem;
+    display: flex;
+    flex-direction: column;   
+}
+.chose .lei .small{
+    display: flex;
+    height:0.92rem;
+    align-items: center;
+}
+.chose .lei .small a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.chose .lei .small .word{
+    margin-left: 0.42rem;
+    font-size: 0.23rem;
+    height:100%;
+    width:100%;
+    line-height: 0.92rem;
+}
+.chose .lei .small .word a{
+    display: block;
+}
+.chose .lei .circle{
+    font-size: 0.1rem;
+    color:#b0b0b0;
+    margin:-0.1rem 1.06rem 0;
+}
+/* 阴影 */
+.yin{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}

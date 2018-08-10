@@ -1,0 +1,317 @@
+@import "base.css";
+/*头部状态栏*/
+.top{
+    width:100%;
+    height:0.4rem;
+    background-color: #1ce8d6;
+}
+.top .topBox{
+    width:7rem;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*头部天气搜索栏*/
+.section{
+    width:100%;
+    height:0.9rem;
+    background-color: #1df4e2;
+}
+.section .con{
+    width:6.56rem;
+    height:100%;
+    margin-left: 0.54rem;
+    display: flex;
+    justify-content: space-between;
+}
+.section .weather{
+    width:0.45rem;
+    height:100%;
+    font-size: 0.28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:#fff;
+}
+.section .search{
+    width: 4.5rem;
+    height:100%;
+}
+.section .searchBox{
+    width:4.1rem;
+    height:0.51rem;
+    background-color: #fff;
+    padding:0 0.2rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+.section .searchBox img{
+    float: left;
+    margin-right: 0.72rem;
+}
+.section .searchBox .place{
+    font-size: 0.23rem;
+}
+.section .wei{
+    width:0.73rem;
+    display: flex;
+    font-size: 0.22rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section .wei img{
+    width: 0.25rem;
+    align-self: center;
+}
+/*轮播图*/
+.wraper{
+    width:100%;
+    height:3.57rem;
+    position: relative;
+}
+.wraper .imgBox{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.wraper .btn{
+    width:0.91rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom:0.07rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wraper .btn .circle{
+    width:0.08rem;
+    height: 0.08em;
+    border-radius: 50%;
+    background-color: #FFF;
+    z-index: 30;
+}
+.wraper .btn .hot{
+    background-color: #22eade;
+}
+
+/*中间部分*/
+.main{
+    width:100%;
+    background-color: #FFF;
+}
+.mid{
+    width: 6.49rem;
+    height: 1.88rem;
+    display: flex;
+    margin:0 auto;
+    font-size: 0.23rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bdbdbd;
+}
+.mid .small{
+    width: 1.03rem;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mid .small .imgBox{
+    height: 1.03rem;
+    width:1.03rem;
+    border-radius: 50%;
+    background-color:#ecf41e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid .small  .word{
+    text-align: center;
+}
+/*推荐*/
+.tj{
+    width: 100%;
+}
+.tj .title{
+    position: relative;
+    width:100%;
+    height: 0.92rem;
+}
+.tj h2::before{
+    content: "";
+    display: block;
+    width:0.31rem;
+    height:0.01rem;
+    border-bottom: 1px solid #b5b5b5;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    left:2.44rem;
+}
+.tj h2::after{
+    content: "";
+    display: block;
+    width:0.31rem;
+    height:1px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b5b5b5;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    right:2.44rem;
+}
+.tj h2{
+    height:0.92rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 0.92rem;
+    color: #5c5c5c;
+}
+.tj .imgBox{
+    width: 6.73rem;
+    height: 4.42rem;
+    background-color: #67dcea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto 0.29rem;
+    position: relative;
+}
+.tj .imgBox img{
+    height:3.91rem;
+}
+.tj .gr{
+    height: 0.29rem;
+    background-color: #cedddc;
+}
+
+/*猜你喜欢*/
+.cai{
+    width: 100%;
+    background-color: #FFF;
+}
+.cai .title {
+    width: 7.03rem;
+    margin:0 auto;
+    height:0.87rem;
+    text-align: center;
+    line-height: 0.87rem;
+    position: relative;
+}
+.cai .title h2{
+    font-size: 0.28rem;
+    color:#737373;
+    font-weight: normal;
+}
+.cai .title h2::before{
+    content: "";
+    display: block;
+    width:0.31rem;
+    height:0.01rem;
+    border-bottom: 1px solid #b5b5b5;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    left:2.2rem;
+}
+.cai .title h2::after{
+    content: "";
+    display: block;
+    width:0.31rem;
+    height:1px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b5b5b5;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    right:2.2rem;
+}
+.cai ul{
+    width:7.02rem;
+    height: 12.05rem;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+ul::-webkit-scrollbar{
+    height:0;
+}
+.cai li{
+    width:7.02rem;
+    height:2rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #cccccc;
+}
+.cai li .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cai li .right .first{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.cai li .right .sec{
+    font-size: 0.17rem;
+    width: 2.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cai li .right .sec .ping{
+    width:1.43rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cai li .right .third{
+    font-size: 0.17rem;
+}
+.cai li .right .four{
+
+    width: 4.29rem;
+    font-size: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jian{
+    height:0.07rem;
+    background-color: #f9f9f7;
+}
+
+/*底部*/
+.bottom{
+    width: 5.93rem;
+    height:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.bottom .small{
+    width:0.6rem;
+    height:0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.17rem;
+
+}
+.bottom .small .change{
+    color:#36e6db;
+}
