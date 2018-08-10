@@ -73,6 +73,10 @@ main .word{
     justify-content: space-around;
     border-bottom: 1px solid #9e9e9e;
 }
+main .word a{
+    display: block;
+    color:#333;
+}
 main .word span{
     height:100%;
     line-height: 0.5rem;
@@ -265,4 +269,10 @@ main .nav .small img{
     line-height: 1.31rem;
     font-size: 0.28rem;
     background: -webkit-linear-gradient(left,#1ce2d2,#5ae4a8);
+}
+.jie .suan a{
+    display: block;
+    color:#fff;
+    width:100%;
+    height:100%;
 }

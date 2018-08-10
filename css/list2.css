@@ -177,6 +177,10 @@
     font-size: 0.17rem;
 
 }
+.bottom .small a{
+    display: block;
+    color:#333;
+}
 .bottom .small .change{
     color:#36e6db;
 }
